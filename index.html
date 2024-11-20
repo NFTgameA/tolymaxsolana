@@ -7,7 +7,7 @@
     <title>Toly Max Solana!</title>
     <meta name="description" content>
     <link rel="icon" href="images/toly.png" type="image/png" sizes="16x16">
-   
+
     <meta property="og:type" content="website">
 
     <meta property="og:title" content="Toly Max Solana!">
@@ -4500,17 +4500,22 @@
             }
         </style>
     </noscript>
-    <script nonce="72dcece5-25bf-4d83-a4c4-5e08a4a891ed">!function () { "use strict"; function t(t, n) { let e; return (...o) => { clearTimeout(e), e = setTimeout((() => { t(...o) }), n) } } class n { constructor() { this.callbacks = [], window.addEventListener("DOMContentLoaded", (() => this.onDOMContentLoaded())) } onDOMContentLoaded() { this.callbacks.sort(((t, n) => t.priority - n.priority)).forEach((({ callback: t }) => t())) } runOnLoad(t) { "loading" === document.readyState ? this.callbacks.push(t) : t.callback() } } function e(t, e = Number.MAX_VALUE) { var o; (window.canva_scriptExecutor = null !== (o = window.canva_scriptExecutor) && void 0 !== o ? o : new n).runOnLoad({ callback: t, priority: e }) } class o { constructor(t) { this.items = [], this.previousWidth = document.documentElement.clientWidth, this.previousHeight = window.innerHeight; const n = t((() => this.onWindowResize()), 100); window.addEventListener("resize", n) } onWindowResize() { const t = document.documentElement.clientWidth, n = window.innerHeight, e = this.previousWidth !== t, o = this.previousHeight !== n; this.items.forEach((t => { const n = () => { t.callback(), t.executed = !0 }; (!t.executed || e && t.options.runOnWidthChange || o && t.options.runOnHeightChange) && n() })), this.previousWidth = t, this.previousHeight = n } runOnResize(t, n) { this.items.push({ callback: t, options: n, executed: n.runOnLoad }), this.items.sort(((t, n) => t.options.priority - n.options.priority)), n.runOnLoad && e(t, n.priority) } } function i(n, e, i = t) { var r; (window.canva_debounceResize = null !== (r = window.canva_debounceResize) && void 0 !== r ? r : new o(i)).runOnResize(n, { runOnLoad: !1, runOnWidthChange: !0, runOnHeightChange: !1, priority: Number.MAX_VALUE, ...e }) } const r = "--minfs", c = "--rzf", u = "--rfso", s = "--bfso"; function a(t, n, e = .001) { return Math.abs(t - n) < e } function d(t, n) { return window.getComputedStyle(t).getPropertyValue(n) } function l(t, n, e) { t.style.setProperty(n, e) } function m(t, n) { const e = document.createElement("div"); e.style.setProperty(t, n), document.body.append(e); const o = d(e, t); return e.remove(), o } function f() { const t = function () { const t = parseFloat(m("font-size", "0.1px")); return t > 1 ? t : 0 }(), n = function (t) { const n = 2 * Math.max(t, 1); return n / parseFloat(m("font-size", `${n}px`)) }(t); if (function (t) { if (0 === t) return; l(document.documentElement, r, `${t}px`), i((() => { const n = 100 * t, { clientWidth: e } = document.documentElement; l(document.documentElement, c, n > e ? (e / n).toPrecision(4) : null) }), { runOnLoad: !0 }) }(t * Math.max(1, n)), a(n, 1)) return; const e = a(parseFloat(d(document.documentElement, "font-size")), parseFloat(m("grid-template-columns", "1rem"))); l(document.documentElement, e ? u : s, n.toPrecision(4)) } function h() { document.querySelectorAll("img, image, video, svg").forEach((t => t.addEventListener("contextmenu", (t => t.preventDefault())))) } const p = "--sbw", g = "--inner1Vh"; function w(t, n, e) { t.style.setProperty(n, e) } function v() { w(document.documentElement, g, window.innerHeight / 100 + "px"), function () { const t = window.innerWidth - document.documentElement.clientWidth; w(document.documentElement, p, t >= 0 ? `${t}px` : null) }() } var y; const E = "undefined" != typeof window ? null === (y = window.navigator) || void 0 === y ? void 0 : y.userAgent : void 0; const b = !(!E || (O = E, !O.match(/AppleWebKit\//) || O.match(/Chrome\//) || O.match(/Chromium\//))); var O; function L() { document.querySelectorAll("svg").forEach((t => t.style.background = "url('data:image/png;base64,')")) } let x; function A() { x || (x = Array.from(document.querySelectorAll("foreignObject")).filter((t => 0 === t.getBoundingClientRect().width))); const t = function () { const t = document.createElement("div"); t.style.fontSize = "100vw", document.body.append(t); const n = parseFloat(window.getComputedStyle(t).fontSize); return t.remove(), n / window.innerWidth }(); Array.from(x).forEach((n => function (t) { return new Promise(((n, e) => { const o = t.querySelector("img"); o && !o.complete ? (o.addEventListener("load", (() => n())), o.addEventListener("error", (() => e()))) : n() })) }(n).finally((() => function (t, n) { const e = Array.from(t.children); e.forEach(((t, n) => { if (t.hasAttribute("data-foreign-object-container")) t.style.transformOrigin = "", t.style.transform = ""; else { const o = document.createElement("div"); o.setAttribute("data-foreign-object-container", ""), t.insertAdjacentElement("beforebegin", o), t.remove(), o.append(t), e[n] = o } })); const o = t.getScreenCTM(); if (!o) return; const { a: i, b: r, c: c, d: u } = o.scale(n); e.forEach((t => { if (!t.hasAttribute("data-foreign-object-container")) return; const { style: n } = t; n.transformOrigin = "0px 0px", n.transform = `matrix(${i}, ${r}, ${c}, ${u}, 0, 0)` })) }(n, t))))) } [function () { e(f) }, function () { i(v, { runOnLoad: !0, runOnHeightChange: !0, priority: 1 }) }, function () { b && i(A, { runOnLoad: !0 }) }, function () { b && e(L) }, function () { e(h) }].forEach((t => t())) }();</script>
+    <script
+        nonce="72dcece5-25bf-4d83-a4c4-5e08a4a891ed">!function () { "use strict"; function t(t, n) { let e; return (...o) => { clearTimeout(e), e = setTimeout((() => { t(...o) }), n) } } class n { constructor() { this.callbacks = [], window.addEventListener("DOMContentLoaded", (() => this.onDOMContentLoaded())) } onDOMContentLoaded() { this.callbacks.sort(((t, n) => t.priority - n.priority)).forEach((({ callback: t }) => t())) } runOnLoad(t) { "loading" === document.readyState ? this.callbacks.push(t) : t.callback() } } function e(t, e = Number.MAX_VALUE) { var o; (window.canva_scriptExecutor = null !== (o = window.canva_scriptExecutor) && void 0 !== o ? o : new n).runOnLoad({ callback: t, priority: e }) } class o { constructor(t) { this.items = [], this.previousWidth = document.documentElement.clientWidth, this.previousHeight = window.innerHeight; const n = t((() => this.onWindowResize()), 100); window.addEventListener("resize", n) } onWindowResize() { const t = document.documentElement.clientWidth, n = window.innerHeight, e = this.previousWidth !== t, o = this.previousHeight !== n; this.items.forEach((t => { const n = () => { t.callback(), t.executed = !0 }; (!t.executed || e && t.options.runOnWidthChange || o && t.options.runOnHeightChange) && n() })), this.previousWidth = t, this.previousHeight = n } runOnResize(t, n) { this.items.push({ callback: t, options: n, executed: n.runOnLoad }), this.items.sort(((t, n) => t.options.priority - n.options.priority)), n.runOnLoad && e(t, n.priority) } } function i(n, e, i = t) { var r; (window.canva_debounceResize = null !== (r = window.canva_debounceResize) && void 0 !== r ? r : new o(i)).runOnResize(n, { runOnLoad: !1, runOnWidthChange: !0, runOnHeightChange: !1, priority: Number.MAX_VALUE, ...e }) } const r = "--minfs", c = "--rzf", u = "--rfso", s = "--bfso"; function a(t, n, e = .001) { return Math.abs(t - n) < e } function d(t, n) { return window.getComputedStyle(t).getPropertyValue(n) } function l(t, n, e) { t.style.setProperty(n, e) } function m(t, n) { const e = document.createElement("div"); e.style.setProperty(t, n), document.body.append(e); const o = d(e, t); return e.remove(), o } function f() { const t = function () { const t = parseFloat(m("font-size", "0.1px")); return t > 1 ? t : 0 }(), n = function (t) { const n = 2 * Math.max(t, 1); return n / parseFloat(m("font-size", `${n}px`)) }(t); if (function (t) { if (0 === t) return; l(document.documentElement, r, `${t}px`), i((() => { const n = 100 * t, { clientWidth: e } = document.documentElement; l(document.documentElement, c, n > e ? (e / n).toPrecision(4) : null) }), { runOnLoad: !0 }) }(t * Math.max(1, n)), a(n, 1)) return; const e = a(parseFloat(d(document.documentElement, "font-size")), parseFloat(m("grid-template-columns", "1rem"))); l(document.documentElement, e ? u : s, n.toPrecision(4)) } function h() { document.querySelectorAll("img, image, video, svg").forEach((t => t.addEventListener("contextmenu", (t => t.preventDefault())))) } const p = "--sbw", g = "--inner1Vh"; function w(t, n, e) { t.style.setProperty(n, e) } function v() { w(document.documentElement, g, window.innerHeight / 100 + "px"), function () { const t = window.innerWidth - document.documentElement.clientWidth; w(document.documentElement, p, t >= 0 ? `${t}px` : null) }() } var y; const E = "undefined" != typeof window ? null === (y = window.navigator) || void 0 === y ? void 0 : y.userAgent : void 0; const b = !(!E || (O = E, !O.match(/AppleWebKit\//) || O.match(/Chrome\//) || O.match(/Chromium\//))); var O; function L() { document.querySelectorAll("svg").forEach((t => t.style.background = "url('data:image/png;base64,')")) } let x; function A() { x || (x = Array.from(document.querySelectorAll("foreignObject")).filter((t => 0 === t.getBoundingClientRect().width))); const t = function () { const t = document.createElement("div"); t.style.fontSize = "100vw", document.body.append(t); const n = parseFloat(window.getComputedStyle(t).fontSize); return t.remove(), n / window.innerWidth }(); Array.from(x).forEach((n => function (t) { return new Promise(((n, e) => { const o = t.querySelector("img"); o && !o.complete ? (o.addEventListener("load", (() => n())), o.addEventListener("error", (() => e()))) : n() })) }(n).finally((() => function (t, n) { const e = Array.from(t.children); e.forEach(((t, n) => { if (t.hasAttribute("data-foreign-object-container")) t.style.transformOrigin = "", t.style.transform = ""; else { const o = document.createElement("div"); o.setAttribute("data-foreign-object-container", ""), t.insertAdjacentElement("beforebegin", o), t.remove(), o.append(t), e[n] = o } })); const o = t.getScreenCTM(); if (!o) return; const { a: i, b: r, c: c, d: u } = o.scale(n); e.forEach((t => { if (!t.hasAttribute("data-foreign-object-container")) return; const { style: n } = t; n.transformOrigin = "0px 0px", n.transform = `matrix(${i}, ${r}, ${c}, ${u}, 0, 0)` })) }(n, t))))) } [function () { e(f) }, function () { i(v, { runOnLoad: !0, runOnHeightChange: !0, priority: 1 }) }, function () { b && i(A, { runOnLoad: !0 }) }, function () { b && e(L) }, function () { e(h) }].forEach((t => t())) }();</script>
 </head>
 
 <body>
     <div id="root"><a id="page-1" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="sK86ZX0O87xFB2eP" style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;">
-            <div id="uua4hUla2nUVGFrv" style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
+        <section id="sK86ZX0O87xFB2eP"
+            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;">
+            <div id="uua4hUla2nUVGFrv"
+                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
                 <div id="GtnUdqtQ0pmcsOdC" style="z-index:0;">
-                    <div id="jqQzMuG8zs3T8vJy" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                    <div id="jqQzMuG8zs3T8vJy"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                         <div id="PhJb6IJEDtS8u24K" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="z7Ea9EYPDlJ3qf1g" style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                            <div id="z7Ea9EYPDlJ3qf1g"
+                                style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                             </div>
                         </div>
                     </div>
@@ -4520,11 +4525,16 @@
                 <div id="hxDCRtVJcAo8bzqm">
                     <div id="xyWZN4YHDcXoOR1v" style="display:grid;position:relative;grid-area:2 / 2 / 3 / 3;">
                         <div id="AFCVTn8pk83B2vob" style="z-index:1;pointer-events:none;">
-                            <div id="Vhx488TP2Nqv1Bqa" style="box-sizing:border-box;width:100%;height:100vh;transform:rotate(0deg);">
+                            <div id="Vhx488TP2Nqv1Bqa"
+                                style="box-sizing:border-box;width:100%;height:100vh;transform:rotate(0deg);">
                                 <div id="xzDJ0dpB0wEkQ6UO" style="width:100%;height:100%;opacity:1.0;">
-                                    <div id="YlBWayYQxBVAqpGt" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                        <div id="oFsIyILXqS2QAtaG" style="width:calc(108.11371486% * max(1, var(--scale-fill, 1)));height:calc(106.83437554% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                            <img src="images/background%20%282%29.png" loading="lazy" sizes="(max-width: 375px) 108.11371486vw, (min-width: 375.05px) and (max-width: 480px) 108.11371486vw, (min-width: 480.05px) and (max-width: 768px) 108.11371486vw, (min-width: 768.05px) and (max-width: 1024px) 108.11371486vw, (min-width: 1024.05px) 108.11371486vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 46.80141551%;transform:translate(-50%, -46.80141551%) rotate(0deg);">
+                                    <div id="YlBWayYQxBVAqpGt"
+                                        style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                        <div id="oFsIyILXqS2QAtaG"
+                                            style="width:calc(108.11371486% * max(1, var(--scale-fill, 1)));height:calc(106.83437554% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                            <img src="images/background%20%282%29.png" loading="lazy"
+                                                sizes="(max-width: 375px) 108.11371486vw, (min-width: 375.05px) and (max-width: 480px) 108.11371486vw, (min-width: 480.05px) and (max-width: 768px) 108.11371486vw, (min-width: 768.05px) and (max-width: 1024px) 108.11371486vw, (min-width: 1024.05px) 108.11371486vw"
+                                                style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 46.80141551%;transform:translate(-50%, -46.80141551%) rotate(0deg);">
                                         </div>
                                     </div>
                                 </div>
@@ -4533,11 +4543,18 @@
                         <div id="sm1gDC2iPsXcmSJs" style="display:grid;position:relative;grid-area:5 / 4 / 7 / 6;">
                             <div id="vAuCJHJHQGnVkEyk" style="z-index:13;">
                                 <div id="VvWL3dZOZrVupOBv" style="padding-top:23.25%;transform:rotate(0deg);">
-                                    <div id="LHy0iNlACNGrz7tI" style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a id="QypF3NHSm4fRWll0" href="index.html#page-2" style="pointer-events:all;" target="_self">
+                                    <div id="LHy0iNlACNGrz7tI"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a
+                                            id="QypF3NHSm4fRWll0" href="index.html#page-2" style="pointer-events:all;"
+                                            target="_self">
                                             <div id="cho8cX8Gm9aBbTfK" style="width:100%;height:100%;opacity:1.0;">
-                                                <div id="Vz65EU0JQgm1k1vB" style="transform:scale(1, -1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                    <div id="PBgiOCqiKFsHJL8b" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                        <img src="fonts/a6f41eb768f95ee314e70e3161e80c9a.svg" alt="Grunge backdrop for text" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                                <div id="Vz65EU0JQgm1k1vB"
+                                                    style="transform:scale(1, -1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                    <div id="PBgiOCqiKFsHJL8b"
+                                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                        <img src="fonts/a6f41eb768f95ee314e70e3161e80c9a.svg"
+                                                            alt="Grunge backdrop for text" loading="lazy"
+                                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -4546,18 +4563,26 @@
                             </div>
                             <div id="Ls4zfzvgc6iwLghq" style="display:grid;position:relative;grid-area:3 / 3 / 4 / 4;">
                                 <div id="wWUx4taSSpfQYKiS" style="z-index:14;pointer-events:none;">
-                                    <div id="WyQRZUBsLBKZN5FO" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                        <div id="JZge3HrZ7PN1FwFi" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="Z1b8TWL3zvYAa9n1" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38847877em;text-align:center;-webkit-text-stroke:0.125em rgb(0, 0, 0);-webkit-text-fill-color:transparent;">
-                                                <span id="KZQPT2FIH8KhypAk" style="color:#ffffff;">STORY</span></p>
+                                    <div id="WyQRZUBsLBKZN5FO"
+                                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                        <div id="JZge3HrZ7PN1FwFi"
+                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                            <p id="Z1b8TWL3zvYAa9n1"
+                                                style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38847877em;text-align:center;-webkit-text-stroke:0.125em rgb(0, 0, 0);-webkit-text-fill-color:transparent;">
+                                                <span id="KZQPT2FIH8KhypAk" style="color:#ffffff;">STORY</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div id="tiGMl0K5E4h7uFpD" style="z-index:15;pointer-events:none;">
-                                    <div id="a0D7kyAoh5eBdfkM" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                        <div id="dZkKUA5mWQY56Kgt" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="LzrDpMb4k6ToB4Gh" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38847877em;text-align:center;">
-                                                <span id="a7SD7T09ZKBnOnvT" style="color:#ffffff;">STORY</span></p>
+                                    <div id="a0D7kyAoh5eBdfkM"
+                                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                        <div id="dZkKUA5mWQY56Kgt"
+                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                            <p id="LzrDpMb4k6ToB4Gh"
+                                                style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38847877em;text-align:center;">
+                                                <span id="a7SD7T09ZKBnOnvT" style="color:#ffffff;">STORY</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -4566,11 +4591,18 @@
                         <div id="gEwqj8oOqCqXKPFk" style="display:grid;position:relative;grid-area:4 / 7 / 6 / 9;">
                             <div id="x1Bnr9PXdXJzkJ2C" style="z-index:10;">
                                 <div id="F9kjT4GmNrALtVe2" style="padding-top:23.25%;transform:rotate(0deg);">
-                                    <div id="hsWyKEaPnnm3ai3u" style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a id="B4dt0MCAzsqJWMAS" href="index.html#page-3" style="pointer-events:all;" target="_self">
+                                    <div id="hsWyKEaPnnm3ai3u"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a
+                                            id="B4dt0MCAzsqJWMAS" href="index.html#page-3" style="pointer-events:all;"
+                                            target="_self">
                                             <div id="AoL5AtQ9NZwotr7q" style="width:100%;height:100%;opacity:1.0;">
-                                                <div id="CK7dIBN3ixRYqCAc" style="transform:scale(-1, -1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                    <div id="jq2HoU0Gy5v42sPu" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                        <img src="fonts/a6f41eb768f95ee314e70e3161e80c9a.svg" alt="Grunge backdrop for text" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                                <div id="CK7dIBN3ixRYqCAc"
+                                                    style="transform:scale(-1, -1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                    <div id="jq2HoU0Gy5v42sPu"
+                                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                        <img src="fonts/a6f41eb768f95ee314e70e3161e80c9a.svg"
+                                                            alt="Grunge backdrop for text" loading="lazy"
+                                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -4579,18 +4611,26 @@
                             </div>
                             <div id="eBIpHPpbBhjINOUT" style="display:grid;position:relative;grid-area:3 / 3 / 4 / 4;">
                                 <div id="SFeJrkHS5dl4h8KW" style="z-index:11;pointer-events:none;">
-                                    <div id="rqqAxRtlHLvRppHo" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                        <div id="hC5waxfYCw2Apfh5" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="FoyA3CKQru97B5NZ" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38847877em;text-align:center;-webkit-text-stroke:0.125em rgb(0, 0, 0);-webkit-text-fill-color:transparent;">
-                                                <span id="eguk7BcKWIiLvllh" style="color:#ffffff;">TOKEN</span></p>
+                                    <div id="rqqAxRtlHLvRppHo"
+                                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                        <div id="hC5waxfYCw2Apfh5"
+                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                            <p id="FoyA3CKQru97B5NZ"
+                                                style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38847877em;text-align:center;-webkit-text-stroke:0.125em rgb(0, 0, 0);-webkit-text-fill-color:transparent;">
+                                                <span id="eguk7BcKWIiLvllh" style="color:#ffffff;">TOKEN</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div id="iiHnzR4Q7kr5pgHt" style="z-index:12;pointer-events:none;">
-                                    <div id="JONr9Ahbzw6WEkSd" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                        <div id="BBlJGYVOu7cArcO8" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="HgYNB4Fp3a7v7kNG" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38847877em;text-align:center;">
-                                                <span id="QpFnPHz4C7H3zJbo" style="color:#ffffff;">TOKEN</span></p>
+                                    <div id="JONr9Ahbzw6WEkSd"
+                                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                        <div id="BBlJGYVOu7cArcO8"
+                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                            <p id="HgYNB4Fp3a7v7kNG"
+                                                style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38847877em;text-align:center;">
+                                                <span id="QpFnPHz4C7H3zJbo" style="color:#ffffff;">TOKEN</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -4599,11 +4639,18 @@
                         <div id="oL3qJHXe7yoRawrv" style="display:grid;position:relative;grid-area:3 / 10 / 8 / 13;">
                             <div id="xo6NKWojiP9ZV3bQ" style="z-index:2;">
                                 <div id="NMArICcIEPT1oqvo" style="padding-top:23.25%;transform:rotate(0deg);">
-                                    <div id="n2dt9QS9hPieUCDO" style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a id="Ov6OQLwd5gLe0blc" href="index.html#page-4" style="pointer-events:all;" target="_self">
+                                    <div id="n2dt9QS9hPieUCDO"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a
+                                            id="Ov6OQLwd5gLe0blc" href="index.html#page-4" style="pointer-events:all;"
+                                            target="_self">
                                             <div id="R6PR6pE0LuTxzowO" style="width:100%;height:100%;opacity:1.0;">
-                                                <div id="AT3jo6vAEl8rmZBa" style="transform:scale(-1, -1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                    <div id="OOu3uTu92mRSOhkl" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                        <img src="fonts/a6f41eb768f95ee314e70e3161e80c9a.svg" alt="Grunge backdrop for text" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                                <div id="AT3jo6vAEl8rmZBa"
+                                                    style="transform:scale(-1, -1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                    <div id="OOu3uTu92mRSOhkl"
+                                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                        <img src="fonts/a6f41eb768f95ee314e70e3161e80c9a.svg"
+                                                            alt="Grunge backdrop for text" loading="lazy"
+                                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -4612,18 +4659,24 @@
                             </div>
                             <div id="rktVbcUKX2ZT5Xzj" style="display:grid;position:relative;grid-area:3 / 3 / 4 / 4;">
                                 <div id="EXWuz0issNmF1kpZ" style="z-index:6;pointer-events:none;">
-                                    <div id="jSTLHKhdRbXR4uuM" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                        <div id="cmufu9KUXrqHjj2j" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="rTB7OcOi3n5r3nUf" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.3949993em;text-align:center;-webkit-text-stroke:0.125em rgb(0, 0, 0);-webkit-text-fill-color:transparent;">
+                                    <div id="jSTLHKhdRbXR4uuM"
+                                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                        <div id="cmufu9KUXrqHjj2j"
+                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                            <p id="rTB7OcOi3n5r3nUf"
+                                                style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.3949993em;text-align:center;-webkit-text-stroke:0.125em rgb(0, 0, 0);-webkit-text-fill-color:transparent;">
                                                 <span id="FkCQJF8nP7f9WhLM" style="color:#ffffff;">INSTRUCTION</span>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div id="r5R5GxJv35t3RQ9u" style="z-index:7;pointer-events:none;">
-                                    <div id="wWjqBRVpHIevyb4r" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                        <div id="YQuwlENNYqD5VCaP" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                            <p id="EXKVGnsTSYAz1vTv" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.3949993em;text-align:center;">
+                                    <div id="wWjqBRVpHIevyb4r"
+                                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                        <div id="YQuwlENNYqD5VCaP"
+                                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                            <p id="EXKVGnsTSYAz1vTv"
+                                                style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.3949993em;text-align:center;">
                                                 <span id="sx3ulyou8CsHopgO" style="color:#ffffff;">INSTRUCTION</span>
                                             </p>
                                         </div>
@@ -4632,29 +4685,42 @@
                             </div>
                         </div>
                         <div id="o3xZoksuxW38pS67" style="z-index:16;">
-                            <div id="FpmJu3CstQ1opdxA" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="zLnpjvky2S37fScV" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="rMYSCpScHjYIPcdp" style="color:#fefefe;font-family:YADZ-WmVYr0-0;line-height:1.39576386em;text-align:center;text-shadow:0em 0.0375em 0.28125em rgba(0, 0, 0, 0.600000);">
-                                        <span id="QEhXVtpVXqvzcN7C" style="color:#fefefe;">Toly</span></p>
+                            <div id="FpmJu3CstQ1opdxA"
+                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                <div id="zLnpjvky2S37fScV"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="rMYSCpScHjYIPcdp"
+                                        style="color:#fefefe;font-family:YADZ-WmVYr0-0;line-height:1.39576386em;text-align:center;text-shadow:0em 0.0375em 0.28125em rgba(0, 0, 0, 0.600000);">
+                                        <span id="QEhXVtpVXqvzcN7C" style="color:#fefefe;">Toly</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div id="SEAIiGJzMAYxI79I" style="z-index:17;">
-                            <div id="F1Wk1dljMUY9FHuZ" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="c6G6z61kB2trhoDM" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="u2VtLHKDO3Q2Ol2I" style="color:#fefefe;font-family:YADZ-WmVYr0-0;line-height:1.4em;text-align:center;text-shadow:0em 0.0375em 0.28125em rgba(0, 0, 0, 0.600000);">
-                                        <span id="cLWDP9jKbLTtO2Ja" style="color:#fefefe;">Max</span></p>
+                            <div id="F1Wk1dljMUY9FHuZ"
+                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                <div id="c6G6z61kB2trhoDM"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="u2VtLHKDO3Q2Ol2I"
+                                        style="color:#fefefe;font-family:YADZ-WmVYr0-0;line-height:1.4em;text-align:center;text-shadow:0em 0.0375em 0.28125em rgba(0, 0, 0, 0.600000);">
+                                        <span id="cLWDP9jKbLTtO2Ja" style="color:#fefefe;">Max</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div id="InSQeyPzowQtJt3q" style="display:grid;position:relative;grid-area:13 / 12 / 14 / 14;">
                             <div id="wSZuzwEuvsWW3M52" style="z-index:3;pointer-events:none;">
                                 <div id="OVAeRAjLyjEEdrbE" style="padding-top:61.29166667%;transform:rotate(0deg);">
-                                    <div id="qWrexp3jqohkGPoE" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
+                                    <div id="qWrexp3jqohkGPoE"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                                         <div id="FbyX0vCSYsZymASl" style="width:100%;height:100%;opacity:1.0;">
-                                            <div id="YhSNex1WWfoBtycz" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                <div id="aMROShd7polBJQlt" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                    <img src="fonts/112fb4b25e9431c11d959493798e7dbc.svg" alt="Indefinitely shaped grunge brush stroke" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                            <div id="YhSNex1WWfoBtycz"
+                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                <div id="aMROShd7polBJQlt"
+                                                    style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                    <img src="fonts/112fb4b25e9431c11d959493798e7dbc.svg"
+                                                        alt="Indefinitely shaped grunge brush stroke" loading="lazy"
+                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                                 </div>
                                             </div>
                                         </div>
@@ -4663,11 +4729,20 @@
                             </div>
                             <div id="bI5xWEmY3ALIwCNX" style="z-index:5;">
                                 <div id="d08iNhTgAKC5GALi" style="padding-top:118.8524015%;transform:rotate(0deg);">
-                                    <div id="n38EUK42WvODHny1" style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a id="F5qApEhOPjn7FcaO" target="_blank" rel="noopener" href="https://twitter.com/tolymaxsolana" style="pointer-events:all;">
+                                    <div id="n38EUK42WvODHny1"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a
+                                            id="F5qApEhOPjn7FcaO" target="_blank" rel="noopener"
+                                            href="https://x.com/TolyMax_Sol" style="pointer-events:all;">
                                             <div id="uOI1i3aVYaYmppvJ" style="width:100%;height:100%;opacity:1.0;">
-                                                <div id="WJVltuBDkcL2xSNp" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                    <div id="mPWusXNEqsOm5DGg" style="width:calc(174.58604454% * max(1, var(--scale-fill, 1)));height:calc(146.89315684% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                        <img src="images/f1cf647ceef67660fdecb10d56d49158.png" loading="lazy" srcset="images/13642a50c18b092d713bb593f8ef8536.png 216w, images/f1cf647ceef67660fdecb10d56d49158.png 324w" sizes="(max-width: 375px) 10.5291607vw, (min-width: 375.05px) and (max-width: 480px) 10.5291607vw, (min-width: 480.05px) and (max-width: 768px) 10.5291607vw, (min-width: 768.05px) and (max-width: 1024px) 10.5291607vw, (min-width: 1024.05px) 10.5291607vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:51.38228764% 50%;transform:translate(-51.38228764%, -50%) rotate(0deg);">
+                                                <div id="WJVltuBDkcL2xSNp"
+                                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                    <div id="mPWusXNEqsOm5DGg"
+                                                        style="width:calc(174.58604454% * max(1, var(--scale-fill, 1)));height:calc(146.89315684% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                        <img src="images/f1cf647ceef67660fdecb10d56d49158.png"
+                                                            loading="lazy"
+                                                            srcset="images/13642a50c18b092d713bb593f8ef8536.png 216w, images/f1cf647ceef67660fdecb10d56d49158.png 324w"
+                                                            sizes="(max-width: 375px) 10.5291607vw, (min-width: 375.05px) and (max-width: 480px) 10.5291607vw, (min-width: 480.05px) and (max-width: 768px) 10.5291607vw, (min-width: 768.05px) and (max-width: 1024px) 10.5291607vw, (min-width: 1024.05px) 10.5291607vw"
+                                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:51.38228764% 50%;transform:translate(-51.38228764%, -50%) rotate(0deg);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -4676,11 +4751,18 @@
                             </div>
                             <div id="nR2srV90DZ7YsNio" style="z-index:4;">
                                 <div id="TgQMWCgIeMoaDM5F" style="padding-top:100%;transform:rotate(0deg);">
-                                    <div id="PZueOaQw81UzljyI" style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a id="I8Z5BcXtFJF39IYI" target="_blank" rel="noopener" href="https://t.me/TolyMaxSolana" style="pointer-events:all;">
+                                    <div id="PZueOaQw81UzljyI"
+                                        style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a
+                                            id="I8Z5BcXtFJF39IYI" target="_blank" rel="noopener"
+                                            href="https://t.me/TolyMaxSolana" style="pointer-events:all;">
                                             <div id="AhJVjKHAbF8kgfmW" style="width:100%;height:100%;opacity:1.0;">
-                                                <div id="uikbnSDnL0CINW6D" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                    <div id="qJMZCQYJc6rzXcpW" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                        <img src="images/d0272c00c3cf24dd667b7cabfc572a06.png" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                                <div id="uikbnSDnL0CINW6D"
+                                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                    <div id="qJMZCQYJc6rzXcpW"
+                                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                        <img src="images/d0272c00c3cf24dd667b7cabfc572a06.png"
+                                                            loading="lazy"
+                                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                                     </div>
                                                 </div>
                                             </div>
@@ -4690,19 +4772,25 @@
                         </div>
                         <div id="C4MDF6VEMx8KxMhm" style="display:grid;position:relative;grid-area:15 / 3 / 16 / 17;">
                             <div id="ZCwYhEW7ubROUAgg" style="z-index:8;">
-                                <div id="rxMTZ2l4gsrz7RRi" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                    <div id="ZLTpGWWcPvjySGhH" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                        <p id="tUld3dyrgq2jz3Kn" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38750087em;text-align:center;-webkit-text-stroke:0.15375em rgb(0, 0, 0);-webkit-text-fill-color:transparent;">
+                                <div id="rxMTZ2l4gsrz7RRi"
+                                    style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                    <div id="ZLTpGWWcPvjySGhH"
+                                        style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                        <p id="tUld3dyrgq2jz3Kn"
+                                            style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38750087em;text-align:center;-webkit-text-stroke:0.15375em rgb(0, 0, 0);-webkit-text-fill-color:transparent;">
                                             <span id="iA5i7eXbN4q3py97" style="color:#ffffff;">CA:TBA</span>
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div id="mnG6mG09dn6yUTm5" style="z-index:9;">
-                                <div id="AM76PjopyP4Um1Uj" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                    <div id="eaR1gulUb9hFFICR" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                        <p id="XlpZnzFMmcYZKOfj" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38750087em;text-align:center;">
-                                            <span id="T46EeFOMMvvOxvsw" style="color:#ffffff;">CA:7Nk2k9QifJaP7oMJrGGpnVNHHa51WUoUM6ycPod4v3DJ</span>
+                                <div id="AM76PjopyP4Um1Uj"
+                                    style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                    <div id="eaR1gulUb9hFFICR"
+                                        style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                        <p id="XlpZnzFMmcYZKOfj"
+                                            style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.38750087em;text-align:center;">
+                                            <span id="T46EeFOMMvvOxvsw" style="color:#ffffff;">CA:SOON</span>
                                         </p>
                                     </div>
                                 </div>
@@ -4712,12 +4800,16 @@
                 </div>
             </div>
         </section><a id="page-2" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="h0zXttusXaACLkow" style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="bN2lER1afhZ0f2PM" style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
+        <section id="h0zXttusXaACLkow"
+            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
+            <div id="bN2lER1afhZ0f2PM"
+                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
                 <div id="tpWAkam6sjwjSzOG" style="z-index:0;">
-                    <div id="ptwljUoAOTQIxSeX" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                    <div id="ptwljUoAOTQIxSeX"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                         <div id="Cb5Z889g40JF4p9v" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="cVTMOglMXgkoslMo" style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                            <div id="cVTMOglMXgkoslMo"
+                                style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                             </div>
                         </div>
                     </div>
@@ -4728,9 +4820,13 @@
                     <div id="KEkbmIC5UVEznP1O" style="padding-top:7.95833333%;transform:rotate(0deg);">
                         <div id="f5qs7eomYXuLlhsV" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                             <div id="vZ1naWOjoo3QJQQM" style="width:100%;height:100%;opacity:1.0;">
-                                <div id="YtyDDJ9cW5OKQUAp" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="rQLzqm5k9PcgNktT" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                        <img src="fonts/6bb3793d3c10a89e426277a6c7a545aa.svg" alt="frames for long text" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                <div id="YtyDDJ9cW5OKQUAp"
+                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="rQLzqm5k9PcgNktT"
+                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                        <img src="fonts/6bb3793d3c10a89e426277a6c7a545aa.svg" alt="frames for long text"
+                                            loading="lazy"
+                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                     </div>
                                 </div>
                             </div>
@@ -4738,10 +4834,14 @@
                     </div>
                 </div>
                 <div id="AkiWiUDKhFAeDmN9" style="z-index:3;">
-                    <div id="Bhdm4Qe0AwavWYN2" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="FnmmMpBbAmgm6dHR" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="SCG20SDpQlvo8VBL" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.39514078em;text-align:center;">
-                                <span id="fD6efuZ8UwJ1kfjx" style="color:#ffffff;">STORY</span></p>
+                    <div id="Bhdm4Qe0AwavWYN2"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="FnmmMpBbAmgm6dHR"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="SCG20SDpQlvo8VBL"
+                                style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.39514078em;text-align:center;">
+                                <span id="fD6efuZ8UwJ1kfjx" style="color:#ffffff;">STORY</span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -4749,9 +4849,13 @@
                     <div id="rPyMa6cUD6WIPHs4" style="padding-top:100%;transform:rotate(0deg);">
                         <div id="bMZiILWCoQ8GDm31" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                             <div id="yCW5zs1lXiSt3ULw" style="width:100%;height:100%;opacity:1.0;">
-                                <div id="kRs7jhyfaIyOerOW" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="vjPGxoEd1NC2djQt" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                        <img src="images/toly.png" loading="lazy" sizes="(max-width: 375px) 45.78865637vw, (min-width: 375.05px) and (max-width: 480px) 45.78865637vw, (min-width: 480.05px) and (max-width: 768px) 45.78865637vw, (min-width: 768.05px) and (max-width: 1024px) 45.78865637vw, (min-width: 1024.05px) 45.78865637vw" style="width:73%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                <div id="kRs7jhyfaIyOerOW"
+                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="vjPGxoEd1NC2djQt"
+                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                        <img src="images/toly.png" loading="lazy"
+                                            sizes="(max-width: 375px) 45.78865637vw, (min-width: 375.05px) and (max-width: 480px) 45.78865637vw, (min-width: 480.05px) and (max-width: 768px) 45.78865637vw, (min-width: 768.05px) and (max-width: 1024px) 45.78865637vw, (min-width: 1024.05px) 45.78865637vw"
+                                            style="width:73%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                     </div>
                                 </div>
                             </div>
@@ -4759,23 +4863,32 @@
                     </div>
                 </div>
                 <div id="IofuOm3o81ZxNqna" style="z-index:4;">
-                    <div id="ab0WUCrnnTcatFRD" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="Z9DWawc55SIq4XuJ" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="joOkXwcWLIiwX2Z6" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39650814em;text-align:center;">
-                                <span id="ExnRnuFHioedrkJN" style="color:#000000;">You guys forgot that $Toly is the Co-Founder of Solana Labs</span><br>
-                                $Toly from Anatoly Yakovenko Co-Founder of Solana Labs - The Inspiration Behind Drake's Alter Ego Anita Max Wynn
-                                </p>
+                    <div id="ab0WUCrnnTcatFRD"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="Z9DWawc55SIq4XuJ"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="joOkXwcWLIiwX2Z6"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39650814em;text-align:center;">
+                                <span id="ExnRnuFHioedrkJN" style="color:#000000;">You guys forgot that $Toly is the
+                                    Co-Founder of Solana Labs</span><br>
+                                $Toly from Anatoly Yakovenko Co-Founder of Solana Labs - The Inspiration Behind Drake's
+                                Alter Ego Anita Max Wynn
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section><a id="page-3" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="PJK0rmJxHB0nTPQz" style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="fUk5ErDlkIPPZ7VD" style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
+        <section id="PJK0rmJxHB0nTPQz"
+            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
+            <div id="fUk5ErDlkIPPZ7VD"
+                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
                 <div id="ovZL7GgFP0nxwDEJ" style="z-index:0;">
-                    <div id="tJPJZjE3oqVmzwIB" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                    <div id="tJPJZjE3oqVmzwIB"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                         <div id="hF93KELwlkvvSW8m" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="ESuRwpzocqa63CUU" style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                            <div id="ESuRwpzocqa63CUU"
+                                style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                             </div>
                         </div>
                     </div>
@@ -4783,10 +4896,14 @@
             </div>
             <div id="KeRWcIuyhqiRZbRG" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
                 <div id="FkO0jhPkaFqTCM5U" style="z-index:6;">
-                    <div id="I56rJPLeJiUdEKVp" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="qF82nv0QS8uWDvqC" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="kHkUW5JQRuYcLqiF" style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.39514078em;text-align:center;">
-                                <span id="INPiiihZAzMxlTl0" style="color:#ffffff;">TOKEN</span></p>
+                    <div id="I56rJPLeJiUdEKVp"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="qF82nv0QS8uWDvqC"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="kHkUW5JQRuYcLqiF"
+                                style="color:#ffffff;font-family:YADZ-WmVYr0-0;line-height:1.39514078em;text-align:center;">
+                                <span id="INPiiihZAzMxlTl0" style="color:#ffffff;">TOKEN</span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -4794,9 +4911,13 @@
                     <div id="n00LxHrkOteKXGuT" style="padding-top:7.95833333%;transform:rotate(0deg);">
                         <div id="InYtNqKgiqeY4uAm" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                             <div id="DQUHixF497oZjsio" style="width:100%;height:100%;opacity:1.0;">
-                                <div id="A25s7pOCbKGCFboU" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="ylD1SJIMihv0FuFM" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                        <img src="fonts/6bb3793d3c10a89e426277a6c7a545aa.svg" alt="frames for long text" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                <div id="A25s7pOCbKGCFboU"
+                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="ylD1SJIMihv0FuFM"
+                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                        <img src="fonts/6bb3793d3c10a89e426277a6c7a545aa.svg" alt="frames for long text"
+                                            loading="lazy"
+                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                     </div>
                                 </div>
                             </div>
@@ -4804,44 +4925,65 @@
                     </div>
                 </div>
                 <div id="v9MtZDKagJWp5jL9" style="z-index:9;">
-                    <div id="X7HzTw1sfMpQai2J" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="Eh4RBA0b8tA4x7RN" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="RRduf6fyzYUdeG2E" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39110061em;text-align:center;">
-                                <span id="rQUpk361Lk5qLxNu" style="color:#000000;">CHAIN: SOLANA</span><br></p>
+                    <div id="X7HzTw1sfMpQai2J"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="Eh4RBA0b8tA4x7RN"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="RRduf6fyzYUdeG2E"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39110061em;text-align:center;">
+                                <span id="rQUpk361Lk5qLxNu" style="color:#000000;">CHAIN: SOLANA</span><br>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div id="wEAkLeWnhgrnjB09" style="z-index:7;">
-                    <div id="sSvQjx5BrjZhKoTF" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="RP8YUUwNZDRsBvXE" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="j59PHujIBpQ7Yx6K" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39153356em;text-align:center;">
-                                <span id="elO5Dol6PaRvbEne" style="color:#000000;">SYMBOL: $TOLY</span><br></p>
+                    <div id="sSvQjx5BrjZhKoTF"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="RP8YUUwNZDRsBvXE"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="j59PHujIBpQ7Yx6K"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39153356em;text-align:center;">
+                                <span id="elO5Dol6PaRvbEne" style="color:#000000;">SYMBOL: $TOLY</span><br>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div id="y1wXV0WTetS5jD8H" style="z-index:8;">
-                    <div id="KG27mXgMslsklel1" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="OnpfMpVgbRSMuCO8" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="kiYbMA90QSQGl2kL" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39153356em;text-align:center;">
-                                <span id="XsQgmc3GXw3sK5TU" style="color:#000000;">SUPPLY: 628 B</span><br></p>
+                    <div id="KG27mXgMslsklel1"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="OnpfMpVgbRSMuCO8"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="kiYbMA90QSQGl2kL"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39153356em;text-align:center;">
+                                <span id="XsQgmc3GXw3sK5TU" style="color:#000000;">SUPPLY: 628 B</span><br>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div id="MxAwf6IwGQO1BJeB" style="z-index:10;pointer-events:none;">
-                    <div id="xObWOiG9CyWMV9lv" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="oUvI4kRUDAivRIvt" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="yh1AMLjbhMJ9kI7Y" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39641579em;text-align:center;">
-                                <span id="ZgrsKjmpAryewhUV" style="color:#000000;">BUY</span><br></p>
+                    <div id="xObWOiG9CyWMV9lv"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="oUvI4kRUDAivRIvt"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="yh1AMLjbhMJ9kI7Y"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39641579em;text-align:center;">
+                                <span id="ZgrsKjmpAryewhUV" style="color:#000000;">BUY</span><br>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div id="Yf05ZScwnvuvtKJx" style="z-index:4;">
                     <div id="aQ0ly2W5HadPUtMa" style="padding-top:28.20833333%;transform:rotate(0deg);">
-                        <div id="TGTrNW4k1lmzgFSv" style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a id="iHmlsx9dKfM104IW" target="_blank" rel="noopener" href style="pointer-events:all;">
+                        <div id="TGTrNW4k1lmzgFSv" style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a
+                                id="iHmlsx9dKfM104IW" target="_blank" rel="noopener" href style="pointer-events:all;">
                                 <div id="msJxHyREr9QeFhex" style="width:100%;height:100%;opacity:1.0;">
-                                    <div id="MbQ2VwyaizmjxvaG" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                        <div id="RO4BwafyROrgIRNQ" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                            <img src="fonts/885af0ead67770d0460b4e47c6dacb27.svg" alt="Grunge background for text" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                    <div id="MbQ2VwyaizmjxvaG"
+                                        style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                        <div id="RO4BwafyROrgIRNQ"
+                                            style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                            <img src="fonts/885af0ead67770d0460b4e47c6dacb27.svg"
+                                                alt="Grunge background for text" loading="lazy"
+                                                style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                         </div>
                                     </div>
                                 </div>
@@ -4852,11 +4994,18 @@
                     <div id="HOB9TSbSekRaQUCE" style="display:grid;position:relative;grid-area:19 / 3 / 20 / 14;">
                         <div id="ALB5WJRtqY1UKm7h" style="z-index:5;">
                             <div id="szFMPKpfwvuJAIA9" style="padding-top:30.95833333%;transform:rotate(0deg);">
-                                <div id="q8O5G2FrNWZPBYlF" style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a id="aZwywyIHZPWs3vj8" target="_blank" rel="noopener" href style="pointer-events:all;">
+                                <div id="q8O5G2FrNWZPBYlF"
+                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;"><a
+                                        id="aZwywyIHZPWs3vj8" target="_blank" rel="noopener" href
+                                        style="pointer-events:all;">
                                         <div id="yHXd7pe9IeYLaCew" style="width:100%;height:100%;opacity:1.0;">
-                                            <div id="alG8qBY4aPFTrG6r" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                                <div id="YkC6HsSHPcRDVAwu" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                    <img src="fonts/26b4012fab4f9ae28eb2ba1077281771.svg" alt="Rectangular grunge brush stroke" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                            <div id="alG8qBY4aPFTrG6r"
+                                                style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                                <div id="YkC6HsSHPcRDVAwu"
+                                                    style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                    <img src="fonts/26b4012fab4f9ae28eb2ba1077281771.svg"
+                                                        alt="Rectangular grunge brush stroke" loading="lazy"
+                                                        style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                                 </div>
                                             </div>
                                         </div>
@@ -4864,10 +5013,14 @@
                             </div>
                         </div>
                         <div id="WAAD1qrmuXTH4acB" style="z-index:11;pointer-events:none;">
-                            <div id="dCr9E9ukCmui0ZCU" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="hs6oogbIfQQWlk10" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="JpkHg7TXz5neeAEg" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.38901413em;text-align:center;">
-                                        <span id="n3zKms9rbDfsugmt" style="color:#000000;">CHART</span><br></p>
+                            <div id="dCr9E9ukCmui0ZCU"
+                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                <div id="hs6oogbIfQQWlk10"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="JpkHg7TXz5neeAEg"
+                                        style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.38901413em;text-align:center;">
+                                        <span id="n3zKms9rbDfsugmt" style="color:#000000;">CHART</span><br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -4877,9 +5030,14 @@
                     <div id="rHIyO9EmI6lZawqS" style="padding-top:83.93881453%;transform:rotate(0deg);">
                         <div id="WxeZb9dElPXVqF9U" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                             <div id="vg6JX8bMw0HfhGLo" style="width:100%;height:100%;opacity:1.0;">
-                                <div id="SKOhbp73Y3C0Bklz" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="zyOdWCcKQu9Wldok" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                        <img src="images/3f2272e04a3706bf2987f14c93870971.png" loading="lazy" srcset="images/153b2c1696d2e96f39b73d644ff73927.png 210w, images/3f2272e04a3706bf2987f14c93870971.png 314w" sizes="(max-width: 375px) 8.70502505vw, (min-width: 375.05px) and (max-width: 480px) 8.70502505vw, (min-width: 480.05px) and (max-width: 768px) 8.70502505vw, (min-width: 768.05px) and (max-width: 1024px) 8.70502505vw, (min-width: 1024.05px) 8.70502505vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                <div id="SKOhbp73Y3C0Bklz"
+                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="zyOdWCcKQu9Wldok"
+                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                        <img src="images/3f2272e04a3706bf2987f14c93870971.png" loading="lazy"
+                                            srcset="images/153b2c1696d2e96f39b73d644ff73927.png 210w, images/3f2272e04a3706bf2987f14c93870971.png 314w"
+                                            sizes="(max-width: 375px) 8.70502505vw, (min-width: 375.05px) and (max-width: 480px) 8.70502505vw, (min-width: 480.05px) and (max-width: 768px) 8.70502505vw, (min-width: 768.05px) and (max-width: 1024px) 8.70502505vw, (min-width: 1024.05px) 8.70502505vw"
+                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                     </div>
                                 </div>
                             </div>
@@ -4890,9 +5048,13 @@
                     <div id="TFxsN21JC1yHVBL0" style="padding-top:70.75167122%;transform:rotate(0deg);">
                         <div id="eDrBPt6WDfVagoYn" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                             <div id="KQCUmW6JQSP1vnt4" style="width:100%;height:100%;opacity:1.0;">
-                                <div id="JRyBCVzBDiFU60LH" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="KqgE0E7Tq7inHmFI" style="width:calc(123.81542463% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                        <img src="images/a1.jpg" loading="lazy" sizes="(max-width: 375px) 78.30480495vw, (min-width: 375.05px) and (max-width: 480px) 78.30480495vw, (min-width: 480.05px) and (max-width: 768px) 78.30480495vw, (min-width: 768.05px) and (max-width: 1024px) 78.30480495vw, (min-width: 1024.05px) 78.30480495vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:49.31304934% 50%;transform:translate(-49.31304934%, -50%) rotate(0deg);">
+                                <div id="JRyBCVzBDiFU60LH"
+                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="KqgE0E7Tq7inHmFI"
+                                        style="width:calc(123.81542463% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                        <img src="images/a1.jpg" loading="lazy"
+                                            sizes="(max-width: 375px) 78.30480495vw, (min-width: 375.05px) and (max-width: 480px) 78.30480495vw, (min-width: 480.05px) and (max-width: 768px) 78.30480495vw, (min-width: 768.05px) and (max-width: 1024px) 78.30480495vw, (min-width: 1024.05px) 78.30480495vw"
+                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:49.31304934% 50%;transform:translate(-49.31304934%, -50%) rotate(0deg);">
                                     </div>
                                 </div>
                             </div>
@@ -4901,12 +5063,16 @@
                 </div>
             </div>
         </section><a id="page-4" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="ioo9hD8BBffBGCu6" style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="XIzjs2WHLpbg5Qgw" style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
+        <section id="ioo9hD8BBffBGCu6"
+            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
+            <div id="XIzjs2WHLpbg5Qgw"
+                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
                 <div id="RDaBv0suR1I6VXuT" style="z-index:0;">
-                    <div id="rOxKtHQnzZuvjXvp" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                    <div id="rOxKtHQnzZuvjXvp"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                         <div id="nP1iH8BRyVCheFFX" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="UsTtpjeY54EVBqoI" style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                            <div id="UsTtpjeY54EVBqoI"
+                                style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                             </div>
                         </div>
                     </div>
@@ -4914,10 +5080,14 @@
             </div>
             <div id="TA4NH9mUKzGJqwV8" style="display:grid;position:relative;grid-area:1 / 2 / 2 / 3;">
                 <div id="ENCPIpEJPNXVQ4d0" style="z-index:2;">
-                    <div id="le0TKJj809OSj4Yw" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="MlTJqmTlEKQwqd2H" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="dlvv2Si1KShvhE23" style="color:#fefefe;font-family:YADZ-WmVYr0-0;line-height:1.3952615em;text-align:center;">
-                                <span id="PK4GQtbymeGQsbOg" style="color:#fefefe;">instruction</span></p>
+                    <div id="le0TKJj809OSj4Yw"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="MlTJqmTlEKQwqd2H"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="dlvv2Si1KShvhE23"
+                                style="color:#fefefe;font-family:YADZ-WmVYr0-0;line-height:1.3952615em;text-align:center;">
+                                <span id="PK4GQtbymeGQsbOg" style="color:#fefefe;">instruction</span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -4925,9 +5095,13 @@
                     <div id="qU3reKklKtegcPIx" style="padding-top:7.95833333%;transform:rotate(0deg);">
                         <div id="LtjYluF5p3DVrcvN" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                             <div id="olN9F8zi1q52Uxe3" style="width:100%;height:100%;opacity:1.0;">
-                                <div id="dIZRAWlnz0nQJ7lx" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="tmrOh0J6pejkbQnl" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                        <img src="fonts/6bb3793d3c10a89e426277a6c7a545aa.svg" alt="frames for long text" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                <div id="dIZRAWlnz0nQJ7lx"
+                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="tmrOh0J6pejkbQnl"
+                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                        <img src="fonts/6bb3793d3c10a89e426277a6c7a545aa.svg" alt="frames for long text"
+                                            loading="lazy"
+                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                     </div>
                                 </div>
                             </div>
@@ -4938,9 +5112,13 @@
                     <div id="sJeCxlgPLFKbgFZ5" style="padding-top:100%;transform:rotate(0deg);">
                         <div id="pKdWYSzUqPjPeFYd" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                             <div id="SOSKHThlZ11t5eTd" style="width:100%;height:100%;opacity:1.0;">
-                                <div id="d2uhmKrwk9dfIATo" style="transform:scale(-1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="MMjUCIXH8fw1ebcC" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                        <img src="images/a2.png" loading="lazy" sizes="(max-width: 375px) 45.00846512vw, (min-width: 375.05px) and (max-width: 480px) 45.00846512vw, (min-width: 480.05px) and (max-width: 768px) 45.00846512vw, (min-width: 768.05px) and (max-width: 1024px) 45.00846512vw, (min-width: 1024.05px) 45.00846512vw" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                <div id="d2uhmKrwk9dfIATo"
+                                    style="transform:scale(-1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="MMjUCIXH8fw1ebcC"
+                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                        <img src="images/a2.png" loading="lazy"
+                                            sizes="(max-width: 375px) 45.00846512vw, (min-width: 375.05px) and (max-width: 480px) 45.00846512vw, (min-width: 480.05px) and (max-width: 768px) 45.00846512vw, (min-width: 768.05px) and (max-width: 1024px) 45.00846512vw, (min-width: 1024.05px) 45.00846512vw"
+                                            style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                     </div>
                                 </div>
                             </div>
@@ -4950,10 +5128,14 @@
                 <div id="f8b1bz9spw7pJvlR" style="z-index:3;">
                     <div id="suFLCbfuLxGMy7ND" style="box-sizing:border-box;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated" style="width:100%;height:100%;animation:pan-RIGHT-81865130-09cb-4ff4-8200-ed66b458d064 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="CErypBdZwbRE0Yvg" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="FJj6G4dADfQSLywn" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
-                                        <span id="VAozYol6qEeblSI9" style="color:#000000;">1.BUY $TOLY</span><br></p>
+                            <div class="animated"
+                                style="width:100%;height:100%;animation:pan-RIGHT-81865130-09cb-4ff4-8200-ed66b458d064 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                <div id="CErypBdZwbRE0Yvg"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="FJj6G4dADfQSLywn"
+                                        style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
+                                        <span id="VAozYol6qEeblSI9" style="color:#000000;">1.BUY $TOLY</span><br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -4962,9 +5144,12 @@
                 <div id="Qou40NzM1EKZQAmM" style="z-index:4;">
                     <div id="HYIxckOY5ZZwuITJ" style="box-sizing:border-box;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated" style="width:100%;height:100%;animation:pan-RIGHT-77e86fe6-e452-4ca8-a421-92ac80be4bae 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="JfhcHndeNdKiTtbS" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="E7EYv9rcntYz1ACh" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
+                            <div class="animated"
+                                style="width:100%;height:100%;animation:pan-RIGHT-77e86fe6-e452-4ca8-a421-92ac80be4bae 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                <div id="JfhcHndeNdKiTtbS"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="E7EYv9rcntYz1ACh"
+                                        style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
                                         <span id="GIJKCyHU8JTBNMfk" style="color:#000000;">2.BUY MORE $TOLY</span><br>
                                     </p>
                                 </div>
@@ -4975,10 +5160,14 @@
                 <div id="KvyuzG778Q38MVcY" style="z-index:5;">
                     <div id="OeweGKIqCd61n1wh" style="box-sizing:border-box;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated" style="width:100%;height:100%;animation:pan-RIGHT-f8174fa6-ab9a-46ed-917a-b1dbf7d5f64b 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="TSoIlGWoIQIcAeNo" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="IVZQaPfcTaXnGpr5" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
-                                        <span id="pcpwAaNetOKujUCQ" style="color:#000000;">3.HOLD $TOLY</span><br></p>
+                            <div class="animated"
+                                style="width:100%;height:100%;animation:pan-RIGHT-f8174fa6-ab9a-46ed-917a-b1dbf7d5f64b 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                <div id="TSoIlGWoIQIcAeNo"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="IVZQaPfcTaXnGpr5"
+                                        style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
+                                        <span id="pcpwAaNetOKujUCQ" style="color:#000000;">3.HOLD $TOLY</span><br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -4987,9 +5176,12 @@
                 <div id="svrTh4yWdlL68j65" style="z-index:6;">
                     <div id="UmwohFdJJSzcWtx7" style="box-sizing:border-box;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated" style="width:100%;height:100%;animation:pan-RIGHT-8b127c2b-751a-4334-9225-2a7b834b8fd9 675ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="a5UkypEO8VZeBi9D" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="yJFT42HGbzBHXNxs" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
+                            <div class="animated"
+                                style="width:100%;height:100%;animation:pan-RIGHT-8b127c2b-751a-4334-9225-2a7b834b8fd9 675ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                <div id="a5UkypEO8VZeBi9D"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="yJFT42HGbzBHXNxs"
+                                        style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
                                         <span id="FPoRW3wkfT7jiDUf" style="color:#000000;">4.HOLD MORE $TOLY</span><br>
                                     </p>
                                 </div>
@@ -5000,10 +5192,14 @@
                 <div id="jz4JB5UTCYMKIN21" style="z-index:7;">
                     <div id="od9ZIn3IDmminbMI" style="box-sizing:border-box;width:100%;height:100%;">
                         <div class="animation_container" style="width:100%;height:100%;">
-                            <div class="animated" style="width:100%;height:100%;animation:pan-RIGHT-274e51de-c8ca-4aaa-b44a-83e4dcb3b301 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
-                                <div id="aqpANkqNmBBLT5k0" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="lKzr2TMwKvMOBJZl" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
-                                        <span id="PyOC8tCILSzgEvSC" style="color:#000000;">5.BE RICH</span><br></p>
+                            <div class="animated"
+                                style="width:100%;height:100%;animation:pan-RIGHT-274e51de-c8ca-4aaa-b44a-83e4dcb3b301 1000ms 100ms both paused, linear_fade 400ms linear both paused;">
+                                <div id="aqpANkqNmBBLT5k0"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="lKzr2TMwKvMOBJZl"
+                                        style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39476053em;text-align:center;">
+                                        <span id="PyOC8tCILSzgEvSC" style="color:#000000;">5.BE RICH</span><br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -5011,12 +5207,16 @@
                 </div>
             </div>
         </section><a id="page-5" aria-hidden="true" style="visibility:hidden;"></a>
-        <section id="RQqSJqr6rja4o9cq" style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
-            <div id="xVyF4IEYQKwMwk9e" style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
+        <section id="RQqSJqr6rja4o9cq"
+            style="position:relative;overflow:hidden;display:grid;align-items:center;grid-template-columns:auto 100rem auto;z-index:0;margin-top:-1px;">
+            <div id="xVyF4IEYQKwMwk9e"
+                style="grid-area:1 / 1 / 2 / 4;display:grid;position:absolute;min-height:100%;min-width:100%;">
                 <div id="tnib3t3byFuxtYw6" style="z-index:0;">
-                    <div id="mnjAdujUWYar0kc5" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                    <div id="mnjAdujUWYar0kc5"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
                         <div id="nFjI0LqbnvjGtTHU" style="width:100%;height:100%;opacity:1.0;">
-                            <div id="W2R9Hw10CZVb1prS" style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                            <div id="W2R9Hw10CZVb1prS"
+                                style="background-color:#ffffff;opacity:1.0;transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
                             </div>
                         </div>
                     </div>
@@ -5027,11 +5227,16 @@
                     <div id="Ag6SwYrEuDPkXHs2" style="display:grid;position:relative;grid-area:2 / 2 / 4 / 8;">
                         <div id="aGuLPzHHV1sIu9Ja" style="z-index:2;">
                             <div id="Mm3BKsQABSA5UDXd" style="padding-top:7.95833333%;transform:rotate(0deg);">
-                                <div id="fG4MEs7ga9TWcNNB" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
+                                <div id="fG4MEs7ga9TWcNNB"
+                                    style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                                     <div id="H761OYzO74TX6Kd9" style="width:100%;height:100%;opacity:1.0;">
-                                        <div id="l36OqrIyphSYc194" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                            <div id="CFDrxHqKkeVPynH2" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                                <img src="fonts/6bb3793d3c10a89e426277a6c7a545aa.svg" alt="frames for long text" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                        <div id="l36OqrIyphSYc194"
+                                            style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                            <div id="CFDrxHqKkeVPynH2"
+                                                style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                                <img src="fonts/6bb3793d3c10a89e426277a6c7a545aa.svg"
+                                                    alt="frames for long text" loading="lazy"
+                                                    style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                             </div>
                                         </div>
                                     </div>
@@ -5039,10 +5244,14 @@
                             </div>
                         </div>
                         <div id="aUvlp05G51lZKXoq" style="z-index:4;">
-                            <div id="WCu0lvenoPWbFz8D" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                                <div id="IaiaDs9JAun4Pkhh" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                                    <p id="CBsTuCys0gqz2C2r" style="color:#fefefe;font-family:YADZ-WmVYr0-0;line-height:1.38901413em;text-align:center;">
-                                        <span id="mQJzZCNmDT208g9R" style="color:#fefefe;">Conclusion</span></p>
+                            <div id="WCu0lvenoPWbFz8D"
+                                style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                                <div id="IaiaDs9JAun4Pkhh"
+                                    style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                                    <p id="CBsTuCys0gqz2C2r"
+                                        style="color:#fefefe;font-family:YADZ-WmVYr0-0;line-height:1.38901413em;text-align:center;">
+                                        <span id="mQJzZCNmDT208g9R" style="color:#fefefe;">Conclusion</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -5052,9 +5261,13 @@
                     <div id="H0ylZYhAEQrkOm1t" style="padding-top:100%;transform:rotate(0deg);">
                         <div id="xgJU9IGmeyxcsQwg" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
                             <div id="LSSPNK2G1WH8ly6G" style="width:100%;height:100%;opacity:1.0;">
-                                <div id="hbw1m5DsHtqYL8ZE" style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
-                                    <div id="TURTdE17dbesZNoL" style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
-                                        <img src="images/toly.png" loading="lazy" sizes="(max-width: 375px) 48.21457361vw, (min-width: 375.05px) and (max-width: 480px) 48.21457361vw, (min-width: 480.05px) and (max-width: 768px) 48.21457361vw, (min-width: 768.05px) and (max-width: 1024px) 48.21457361vw, (min-width: 1024.05px) 48.21457361vw" style="width:73%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
+                                <div id="hbw1m5DsHtqYL8ZE"
+                                    style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
+                                    <div id="TURTdE17dbesZNoL"
+                                        style="width:calc(100% * max(1, var(--scale-fill, 1)));height:calc(100% / min(1, var(--scale-fill, 1)));position:absolute;top:50%;left:50%;opacity:1.0;animation:pulse 1.5s ease-in-out infinite;">
+                                        <img src="images/toly.png" loading="lazy"
+                                            sizes="(max-width: 375px) 48.21457361vw, (min-width: 375.05px) and (max-width: 480px) 48.21457361vw, (min-width: 480.05px) and (max-width: 768px) 48.21457361vw, (min-width: 768.05px) and (max-width: 1024px) 48.21457361vw, (min-width: 1024.05px) 48.21457361vw"
+                                            style="width:73%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
                                     </div>
                                 </div>
                             </div>
@@ -5062,38 +5275,57 @@
                     </div>
                 </div>
                 <div id="PGeZKePRcI0i0kuY" style="z-index:3;">
-                    <div id="gbo1bSYB0mmIsSGJ" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="BAlX3QrXReDGBFqt" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="ZVWRy35FBTezWUCB" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39902015em;text-align:center;">
-                                <span id="XwZtPxzG9wZRQhIF" style="color:#000000;">SEE YOU ON </span></p>
-                            <p id="QNCOmrQD88tPZF49" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39902015em;text-align:center;">
-                                <span id="wBvT57bnUKkGidzt" style="color:#000000;">RAYDIUM!</span><br></p>
+                    <div id="gbo1bSYB0mmIsSGJ"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="BAlX3QrXReDGBFqt"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="ZVWRy35FBTezWUCB"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39902015em;text-align:center;">
+                                <span id="XwZtPxzG9wZRQhIF" style="color:#000000;">SEE YOU ON </span>
+                            </p>
+                            <p id="QNCOmrQD88tPZF49"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.39902015em;text-align:center;">
+                                <span id="wBvT57bnUKkGidzt" style="color:#000000;">RAYDIUM!</span><br>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div id="x7k2c3gvkJxpzeas" style="z-index:5;margin-top: 60px;">
-                    <div id="v8bUsHDnQHNqymSn" style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
-                        <div id="ldZDnHTdcj5vF4I8" style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
-                            <p id="hSh2uEUQmsh5VFif" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.35000338em;text-align:center;">
-                                <span id="r0zAOFnPvkXGHr55" style="color:#000000;">Disclaimer</span></p>
-                            <p id="zW70oWJxgjTS5gU1" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.35000338em;text-align:center;">
+                    <div id="v8bUsHDnQHNqymSn"
+                        style="box-sizing:border-box;width:100%;height:100%;transform:rotate(0deg);">
+                        <div id="ldZDnHTdcj5vF4I8"
+                            style="opacity:1.0;display:flex;box-sizing:border-box;flex-direction:column;justify-content:flex-start;width:100%;height:100%;">
+                            <p id="hSh2uEUQmsh5VFif"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.35000338em;text-align:center;">
+                                <span id="r0zAOFnPvkXGHr55" style="color:#000000;">Disclaimer</span>
+                            </p>
+                            <p id="zW70oWJxgjTS5gU1"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.35000338em;text-align:center;">
                                 <span id="q19B4yF1R9XxqjNW" style="color:#000000;">The content on this website,
-                                    including information about Toly Max Solana! Token ($TOLY), is for informational purposes
+                                    including information about Toly Max Solana! Token ($TOLY), is for informational
+                                    purposes
                                     only and is not financial advice. Cryptocurrency investments carry risks, and users
                                     should conduct their research and consult with ​financial professionals before
-                                    making any investment decisions.</span><br></p>
-                            <p id="ZbgCBoXe3QV0daNm" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.35000338em;text-align:center;">
+                                    making any investment decisions.</span><br>
+                            </p>
+                            <p id="ZbgCBoXe3QV0daNm"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.35000338em;text-align:center;">
                                 <span id="VEaPPox4fdLF0piC" style="color:#000000;">© 2024 THIS IS FINE. ALL RIGHTS
-                                    RESERVED.</span><br></p>
-                            <p id="pM6dL1H3ZqCoVsyn" style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.35000338em;text-align:center;">
-                                <span id="tPFABrHtehP4hw5J" style="color:#000000;">team@tolymaxsolana.club </span><br></p>
+                                    RESERVED.</span><br>
+                            </p>
+                            <p id="pM6dL1H3ZqCoVsyn"
+                                style="color:#000000;font-family:YADZ-WmVYr0-0;line-height:1.35000338em;text-align:center;">
+                                <span id="tPFABrHtehP4hw5J" style="color:#000000;">team@tolymaxsolana.club </span><br>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <script src="js/939898b427480d700449229ff00dbb8a6f9f77442b532f697866e6914ab8843a.js" async nonce="72dcece5-25bf-4d83-a4c4-5e08a4a891ed"></script>
-        <script src="js/388fb330498371d4935abbff11d34d4c30842ca3c4a128cdd290d29db98acb41.js" async nonce="72dcece5-25bf-4d83-a4c4-5e08a4a891ed"></script>
+        <script src="js/939898b427480d700449229ff00dbb8a6f9f77442b532f697866e6914ab8843a.js" async
+            nonce="72dcece5-25bf-4d83-a4c4-5e08a4a891ed"></script>
+        <script src="js/388fb330498371d4935abbff11d34d4c30842ca3c4a128cdd290d29db98acb41.js" async
+            nonce="72dcece5-25bf-4d83-a4c4-5e08a4a891ed"></script>
     </div>
 </body>
 
